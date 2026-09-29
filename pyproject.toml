@@ -1,0 +1,20 @@
+[project]
+name = "cca-f"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MD. Akter Nashid Rajin", email = "akter.nashid@brainstation-23.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "claude-agent-sdk>=0.2.160",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+cca-f = "cca_f:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
