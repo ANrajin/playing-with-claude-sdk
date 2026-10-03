@@ -12,6 +12,7 @@ async def main():
         options=ClaudeAgentOptions(
             allowed_tools=["Read", "Edit", "Glob"],  # Auto-approve these tools
             permission_mode="acceptEdits",  # Auto-approve file edits
+            model="claude-haiku-4-5-20251001"
         ),
     ):
         # Print human-readable output

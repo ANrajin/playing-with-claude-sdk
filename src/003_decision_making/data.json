@@ -1,0 +1,75 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Classic Hoodie",
+            "category": "Apparel",
+            "price": 35.0,
+            "stock": {
+                "S": 4,
+                "M": 0,
+                "L": 7
+            },
+            "color": "Blue"
+        },
+        {
+            "id": 2,
+            "name": "Zip Hoodie",
+            "category": "Apparel",
+            "price": 42.0,
+            "stock": {
+                "S": 2,
+                "M": 5,
+                "L": 1
+            },
+            "color": "Blue"
+        },
+        {
+            "id": 3,
+            "name": "ProBook 14 Laptop",
+            "category": "Laptops",
+            "price": 899.0,
+            "stock": 0
+        },
+        {
+            "id": 4,
+            "name": "AirLite 14 Laptop",
+            "category": "Laptops",
+            "price": 849.0,
+            "stock": 6
+        },
+        {
+            "id": 5,
+            "name": "Basic Keyboard",
+            "category": "Accessories",
+            "price": 19.0,
+            "stock": 30
+        },
+        {
+            "id": 6,
+            "name": "Mechanical Keyboard",
+            "category": "Accessories",
+            "price": 79.0,
+            "stock": 12
+        }
+    ],
+    "orders": [
+        {
+            "id": 1001,
+            "customer": "Rahim",
+            "status": "Shipped",
+            "items": [
+                5
+            ]
+        },
+        {
+            "id": 1002,
+            "customer": "Karim",
+            "status": "Pending",
+            "items": [
+                3,
+                6
+            ]
+        }
+    ]
+}
